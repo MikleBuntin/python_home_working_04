@@ -14,3 +14,4 @@ print(string_result)
 
 data = open('file.txt', 'a')
 data.writelines(string_result)
+data.close()
