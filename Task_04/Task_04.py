@@ -5,13 +5,6 @@
 
 import random
 rate = int(input("Введите степень: "))
-
-# while rate > 1:
-#     print(random.randint(0, 100),"x ^",rate, " + ", end='')
-#     rate -= 1
-#
-# print(random.randint(0, 100),"x", " + ", end='')
-# print(random.randint(0, 100), " = 0", )
 string_result = str()
 while rate > 1:
     string_result = string_result + str(random.randint(0, 100)) + "x^" + str(rate) + " + "
